@@ -1,7 +1,7 @@
 const http = require('http');
 
 const requestListener = (request, response) => {
-	response.write('Hello from different World\n');
+	response.write('Hello World\n');
 	response.end();
 }
 
